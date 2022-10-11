@@ -26,7 +26,16 @@
 * origin 이라는 이름으로 github의 원격 repository주소를 등록하는 절차
 
 5. 프로젝트를 압축하여 local repository(.git 폴더)에 저장하기
+* git add .(.은 자바스크립트에 있는 모든 파일을 말함)
 * git commit -m "Comment"(압축한 이유를 COMMENT에 쓰는거임)
+
+6. 업로드하기
+* git push -u origin master
+
+## 프로젝트 수정(변경, 추가, 내용삭제)
+* git add .
+* git commit -m "수정한 내용 Comment"
+* git push
 
 
 
